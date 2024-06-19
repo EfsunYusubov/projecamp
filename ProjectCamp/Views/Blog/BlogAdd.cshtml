@@ -1,0 +1,49 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewData["Title"] = "BlogAdd";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+    var items = ViewBag.cv as List<SelectListItem>;
+
+}
+
+
+<h1>Yeni Blog yaz</h1>
+<br />
+@using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+{
+
+    @Html.Label("Blog başlığı")
+    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogTitle)
+    <br />
+    @Html.Label("Rəsim")
+    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogImage)
+    <br />
+    @Html.Label("Kiçik rəsim")
+    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
+    <br />
+    @Html.Label("Kateqoriya")
+    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.cv, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.CategoryID)
+
+   
+  @*   <select class="form-control" aria-label="Default select example" onchange="document.getElementById('CategoryID').value = this.value;">
+        @foreach (var item in items)
+        {
+            <option class="footer-select__option" value="@item.Value">@item.Text</option>
+        }
+    </select>
+  
+    @Html.HiddenFor(x => x.CategoryID, new { id = "CategoryID" })
+    <span asp-validation-for="CategoryID" class="text-danger"></span> *@
+    <br />
+    @Html.Label("Blog içi")
+    @Html.TextAreaFor(x => x.BlogContent, 10, 3, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogContent)
+
+    
+    <br />
+    <button class="btn btn-info">Hazır</button>
+}
+

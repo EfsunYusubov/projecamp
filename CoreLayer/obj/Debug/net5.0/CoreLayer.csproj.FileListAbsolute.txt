@@ -1,0 +1,11 @@
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\VsProject\AspDotNetCoreYoutube\ProjectCamp\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll

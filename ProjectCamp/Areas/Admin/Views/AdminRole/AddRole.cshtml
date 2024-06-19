@@ -1,0 +1,21 @@
+﻿@using ProjectCamp.Models
+@model RoleViewModel
+@{
+    ViewData["Title"] = "AddRole";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Rol əlavə etmə səhifəsi</h1>
+<form method="post">
+    <div class="form-group">
+        <label>Rol başlığı</label>
+        <input type="text" name="name" class="form=control" />
+    </div>
+
+    @* <div asp-validation-summary="ModeOnly">
+
+    </div> *@
+
+    <button class="btn btn-info">Yaddaşa vur</button>
+</form>
+
